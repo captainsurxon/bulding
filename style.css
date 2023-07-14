@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.box{
+    width: 1200px;
+    height: 3687px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.hom{
+    margin-left: 501px;
+    display: flex;
+    gap: 44px;
+}
+
+.hom a{
+color: #272D38;
+font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px;
+text-transform: lowercase;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    padding-left: 75px;
+}
+
+.digital a{
+color: #272D38;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.building{
+    margin-top: 141px;
+    display: flex;
+    gap: 71px;
+    align-items: center;
+}
+
+.buil h1{
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+text-transform: capitalize;
+}
+
+.buil p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    margin-top: 24px;
+    }
+
+.buil button {
+    width: 167px;
+    height: 48px;
+    background-color: #8EADD5;
+    border-radius: 8px;
+    border: 1px solid #8EADD5;
+    margin-top: 49px;
+    color: white;
+}
+
+.section1{
+    margin-top: 157px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.tex{
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%;
+text-transform: capitalize;
+}
+
+.lo{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    cursor: pointer;
+}
+
+.bac{
+    width: 1004px;
+    height: 86px;
+    border-radius: 8px;
+    background: #dde1e8;
+    margin-top: -67px;
+    margin-left: 91px;
+}
+
+
+.section2{
+    margin-top: 136px;
+    display: flex;
+    gap: 179px;
+    justify-content: center;
+    align-items: center;
+}
+
+.branding h1{
+color: #272D38;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+text-transform: capitalize;
+}
+
+.branding p{
+color: #272D38;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px;
+text-transform: capitalize;
+margin-top: 25.5px;
+}
+
+.branding img{
+    margin-top: 46px;
+}
+
+
+.section3{
+    margin-top: 136px;
+    display: flex;
+    gap: 179px;
+    justify-content: center;
+    align-items: center;
+}
+
+.custome h1{
+color: #272D38;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+text-transform: capitalize;
+}
+
+.custome p{
+    color: #272D38;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    margin-top: 25.5px;
+}
+
+.custome img{
+    margin-top: 46px;
+}
+
+.section4{
+    margin-top: 136px;
+}
+
+.testimol{
+    text-align: center;
+}
+
+.testimol p{
+color: #272D38;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px;
+text-transform: capitalize;
+}
+
+.testimol h1{
+color: #272D38;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 700px;
+line-height: 100%;
+text-transform: capitalize;
+margin-top: 16px;
+}
+
+.hum{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.andrew p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+
+.lor p{
+color: #272D38;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 130%;
+text-transform: capitalize;
+margin-top: 27px;
+}
+
+.andrew{
+    width: 345px;
+    height: 334px;
+    border-radius: 20px;
+    background: #dde1e8;
+    margin-top: -296px;
+    flex-direction: column;
+    margin-top: 70px;
+    padding-top: 25px;
+}
+
+.andrew:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgb(128, 128, 128);
+}
+
+.bac1:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgb(128, 128, 128);
+}
+
+.section5{
+    margin-top: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.next h1{
+color: #272D38;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+}
+
+.next p{
+color: #272D38;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px;
+margin-top: 16px;
+}
+
+.next button{
+   width: 167px;
+   height: 48px;
+   border-radius: 8px;
+   background: #8EADD5;
+   color: white;
+   border: 1px solid #8EADD5;
+   margin-top: 32px;
+}
+
+.footer{
+    margin-top: 138px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    gap:  178px;
+}
+
+.dig h3{
+    color: #272D38;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-transform: capitalize; 
+}
+
+.dig p{
+color: #272D38;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 48px;
+text-transform: capitalize;
+margin-top: 40px;
+}
+
+.capp p{
+color: #272D38;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%;
+margin-top: 100px;
+text-align: center;
+}
+
+@media (max-width: 769px) {
+    /* header uchun */
+    header {
+      height: 850px;
+    }
+    .container {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      line-height: 76px;
+      letter-spacing: -2.172px;
+      margin-bottom: 40px;
+    }
+    .ima img {
+      position: absolute;
+      top: -300px;
+      width: 100px;
+      height: 100px;
+      right: 0;
+      margin: 0;
+    }
+}
+  
+    /* header uchun tugadi */
+  
+    /* main secttion uchun boshlandi */
+    .wrapper {
+      display: flex;
+      max-width: 482px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      padding-left: 0 !important;
+    }
+  
+    /* main secttion uchun tugadi */
+  
+  
+  @media (max-width: 481px) {
+    .ima {
+      width: 160px;
+      height: 160px;
+    }
+    .tex h1 {
+      font-size: 56px;
+      line-height: 46px;
+    }
+    .ima img {
+      top: -50px;
+  
+      right: -40px;
+      margin: 0;
+    }
+    .wrapper {
+      max-width: 335px;
+    }
+    .section5 h1 {
+      font-size: 45px;
+    }
+    .section5 a {
+      font-size: 26px;
+    }
+  }
